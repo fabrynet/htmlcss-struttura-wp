@@ -4,3 +4,47 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* regole generali */
+.container {
+  margin: 1%;
+}
+header {
+  /* debug */
+  height: 200px;
+  background-color: yellow;
+}
+/* clearfix del main */
+main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+main {
+  margin: 1% auto;
+}
+.column-left {
+  float: left;
+  width: 25%;
+  /* debug */
+  height: 300px;
+  background-color: pink;
+}
+.column-center {
+  float: left;
+  width: 50%;
+  /* debug */
+  height: 500px;
+  background-color: violet;
+}
+.column-right {
+  float: left;
+  width: 25%;
+  /* debug */
+  height: 400px;
+  background-color: pink;
+}
+footer {
+  /* debug */
+  height: 100px;
+  background-color: lightblue;
+}
