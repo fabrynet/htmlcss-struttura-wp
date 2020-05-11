@@ -20,7 +20,7 @@ main:after {
   clear: both;
 }
 main {
-  margin: 1% auto;
+  margin: 0.5% auto;
 }
 .column-left {
   float: left;
@@ -31,7 +31,8 @@ main {
 }
 .column-center {
   float: left;
-  width: 50%;
+  width: 48%;
+  margin: 0 1%;
   /* debug */
   height: 500px;
   background-color: violet;
@@ -40,7 +41,14 @@ main {
   float: left;
   width: 25%;
   /* debug */
-  height: 400px;
+  /* height: 500px;
+  background-color: pink; */
+}
+.section {
+  width: 100%;
+  margin-bottom: 5%;
+  /* debug */
+  height: 200px;
   background-color: pink;
 }
 footer {
